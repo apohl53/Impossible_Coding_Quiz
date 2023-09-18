@@ -25,10 +25,6 @@ function showQuestion() {
   });
 }
 
-// get the button text using the event object target property and innerText
-// Target is the element that the user clicked on (button)
-// Check if the button is equal to question.correctAnswer
-
 function checkAnswer(e) {
   var button = e.target;
   var buttonText = button.innerText;
@@ -56,7 +52,6 @@ function checkAnswer(e) {
 }
 
 // Starts game, makes assets visible, runs show question function, starts timer
-
 function startGame() {
   questionWrap.classList.remove("hide");
   timeEl.classList.remove("hide");
@@ -77,6 +72,15 @@ function startGame() {
       clearInterval();
     }
   }, 1000);
+}
+
+function showHighscores() {
+  //clear time interval
+
+  //move the user to a different html page
+
+  localStorage.setItem("score", time);
+  window.location = "./highscores.html";
 }
 
 startBtn.addEventListener("click", startGame);

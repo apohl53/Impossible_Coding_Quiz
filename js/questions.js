@@ -1,11 +1,3 @@
-// var questionIndex = [
-//   "question1",
-//   "question2",
-//   "question2",
-//   "question4",
-//   "question5",
-// ];
-
 var questions = [
   {
     text: "HTML is used for:",
@@ -27,27 +19,32 @@ var questions = [
     ],
     correctAnswer: "*-selector",
   },
-  // Which of the following is NOT a valid CSS selector?
-  // a) .class-selector
-  // b) #id-selector
-  // c) *-selector
-  // d) element-selector
 
-  // What is the correct syntax for creating a JavaScript function?
-  // a) function myFunction() {}
-  // b) myFunction = function() {}
-  // c) myFunction() {}
-  // d) function = myFunction() {}
+  {
+    text: "What is the correct syntax for creating a JavaScript function?",
+    choices: [
+      "function myFunction() {}",
+      "myFunction = function() {}",
+      "myFunction() {}",
+      "function = myFunction() {}",
+    ],
+    correctAnswer: "function myFunction() {}",
+  },
 
-  // How do you add a comment in HTML?
-  // a)
-  // b) // This is a comment
-  // c) /* This is a comment */
-  // d) # This is a comment
+  {
+    text: "How do you add a comment in HTML?",
+    choices: [
+      "! This is a comment",
+      "// This is a comment",
+      "/* This is a comment */",
+      "# This is a comment",
+    ],
+    correctAnswer: "/* This is a comment */",
+  },
 
-  // Which of the following is NOT a JavaScript data type?
-  // a) String
-  // b) Boolean
-  // c) Array
-  // d) Integer
+  {
+    text: "Which of the following is NOT a JavaScript data type?",
+    choices: ["String", "Boolean", "Array", "Integer"],
+    correctAnswer: "Integer",
+  },
 ];
