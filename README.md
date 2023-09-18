@@ -8,4 +8,5 @@ Once you get to the end you can enter your initials to save your score, good luc
 
 https://apohl53.github.io/Impossible_Coding_Quiz/
 
-./assets/Screen Shot 2023-09-17 at 11.26.54 PM.png
+
+<img width="1512" alt="Screen Shot 2023-09-17 at 11 26 54 PM" src="https://github.com/apohl53/Impossible_Coding_Quiz/assets/117484338/0351f5c8-612e-4763-9dd9-2a0ee61320ce">
