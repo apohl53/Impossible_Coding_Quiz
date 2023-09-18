@@ -11,7 +11,7 @@ function getHighscores() {
 function saveHighscore() {
   var nameInput = document.querySelector("#nameinput");
   var name = nameInput.value;
-
+  var score = localStorage.getItem("score"); // Get the score from local storage
   var highscores = getHighscores();
 
   highscores.push({
@@ -28,6 +28,9 @@ function showScore() {
 }
 
 function showScoreOutput() {
+  // target highscores button
+  // show highscoresForm
+  // then it should hide the scores output
   scoreFormWrap.classList.add("hide");
   scoresOutputDiv.classList.remove("hide");
 
@@ -42,8 +45,8 @@ function showScoreOutput() {
       "beforeend",
       `
     <div>
-        <h3>Name: ${scoreObj.name}</h3>
-        <p>Score: ${scoreObj.score}</p>
+        <h3>Name: ${scoreObject.name}</h3>
+        <p>Score: ${scoreObject.score}</p>
     </div>
     `
     );
