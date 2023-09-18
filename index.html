@@ -4,17 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/stylesheet.css" />
     <title>Document</title>
   </head>
 
   <body>
+    <h1>Quiz Game</h1>
+
+    <h2 class="hide" id="timer">60</h2>
+
     <button id="start">Start</button>
-    <h1 id="output">60</h1>
-    <div class="choices"></div>
-    <button class="correct">Option 1</button>
-    <button>Option 2</button>
-    <button>Option 3</button>
-    <button>Option 4</button>
+
+    <div id="question-wrap" class="hide">
+      <h3>Question Text</h3>
+      <div class="choices"></div>
+      <span id="test" class="hide">Correct!</span>
+    </div>
+
     <script src="./js/questions.js"></script>
     <script src="./js/script.js"></script>
   </body>
